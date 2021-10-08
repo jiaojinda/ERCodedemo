@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.networknt:client:1.3.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.networknt/client/1.3.0/4ec6494fbbc6e3198bd0ff32a7b743632b13f525/client-1.3.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.networknt/client/1.3.0/18fe289de18a950181b8fdb16c4962a639103e10/client-1.3.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,5 @@
+rootProject.name = 'ERCodedemo'
+include 'common'
+include 'services'
+include 'services:common'
+include 'services:commentservice'

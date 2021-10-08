@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.networknt:cluster:1.3.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.networknt/cluster/1.3.0/de1a516b044b660008a0b43673ece66accfaa0d3/cluster-1.3.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.networknt/cluster/1.3.0/6de19fa7c3ad3ec5a00aedc9e0b2d7e799df5b50/cluster-1.3.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

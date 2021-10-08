@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.jiaojinda.ERCodedemo.iml" filepath="$PROJECT_DIR$/.idea/modules/com.jiaojinda.ERCodedemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.jiaojinda.ERCodedemo.main.iml" filepath="$PROJECT_DIR$/.idea/modules/com.jiaojinda.ERCodedemo.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.jiaojinda.ERCodedemo.test.iml" filepath="$PROJECT_DIR$/.idea/modules/com.jiaojinda.ERCodedemo.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/com.jiaojinda.common.iml" filepath="$PROJECT_DIR$/.idea/modules/common/com.jiaojinda.common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/com.jiaojinda.common.main.iml" filepath="$PROJECT_DIR$/.idea/modules/common/com.jiaojinda.common.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/com.jiaojinda.common.test.iml" filepath="$PROJECT_DIR$/.idea/modules/common/com.jiaojinda.common.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/services/commentservice/com.jiaojinda.services.commentservice.iml" filepath="$PROJECT_DIR$/.idea/modules/services/commentservice/com.jiaojinda.services.commentservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/services/commentservice/com.jiaojinda.services.commentservice.main.iml" filepath="$PROJECT_DIR$/.idea/modules/services/commentservice/com.jiaojinda.services.commentservice.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/services/commentservice/com.jiaojinda.services.commentservice.test.iml" filepath="$PROJECT_DIR$/.idea/modules/services/commentservice/com.jiaojinda.services.commentservice.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/services/common/com.jiaojinda.services.common.iml" filepath="$PROJECT_DIR$/.idea/modules/services/common/com.jiaojinda.services.common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/services/common/com.jiaojinda.services.common.main.iml" filepath="$PROJECT_DIR$/.idea/modules/services/common/com.jiaojinda.services.common.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/services/common/com.jiaojinda.services.common.test.iml" filepath="$PROJECT_DIR$/.idea/modules/services/common/com.jiaojinda.services.common.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/services/com.jiaojinda.services.services.iml" filepath="$PROJECT_DIR$/.idea/modules/services/com.jiaojinda.services.services.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/services/com.jiaojinda.services.services.main.iml" filepath="$PROJECT_DIR$/.idea/modules/services/com.jiaojinda.services.services.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/services/com.jiaojinda.services.services.test.iml" filepath="$PROJECT_DIR$/.idea/modules/services/com.jiaojinda.services.services.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/com.xiaomi.demo.common.iml" filepath="$PROJECT_DIR$/.idea/modules/common/com.xiaomi.demo.common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/com.xiaomi.demo.common.main.iml" filepath="$PROJECT_DIR$/.idea/modules/common/com.xiaomi.demo.common.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/com.xiaomi.demo.common.test.iml" filepath="$PROJECT_DIR$/.idea/modules/common/com.xiaomi.demo.common.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.xiaomi.demo.ics.oms.iml" filepath="$PROJECT_DIR$/.idea/modules/com.xiaomi.demo.ics.oms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.xiaomi.demo.ics.oms.main.iml" filepath="$PROJECT_DIR$/.idea/modules/com.xiaomi.demo.ics.oms.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.xiaomi.demo.ics.oms.test.iml" filepath="$PROJECT_DIR$/.idea/modules/com.xiaomi.demo.ics.oms.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/services/commentservice/com.xiaomi.demo.services.commentservice.iml" filepath="$PROJECT_DIR$/.idea/modules/services/commentservice/com.xiaomi.demo.services.commentservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/services/commentservice/com.xiaomi.demo.services.commentservice.main.iml" filepath="$PROJECT_DIR$/.idea/modules/services/commentservice/com.xiaomi.demo.services.commentservice.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/services/commentservice/com.xiaomi.demo.services.commentservice.test.iml" filepath="$PROJECT_DIR$/.idea/modules/services/commentservice/com.xiaomi.demo.services.commentservice.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/services/common/com.xiaomi.demo.services.common.iml" filepath="$PROJECT_DIR$/.idea/modules/services/common/com.xiaomi.demo.services.common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/services/common/com.xiaomi.demo.services.common.main.iml" filepath="$PROJECT_DIR$/.idea/modules/services/common/com.xiaomi.demo.services.common.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/services/common/com.xiaomi.demo.services.common.test.iml" filepath="$PROJECT_DIR$/.idea/modules/services/common/com.xiaomi.demo.services.common.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/services/com.xiaomi.demo.services.services.iml" filepath="$PROJECT_DIR$/.idea/modules/services/com.xiaomi.demo.services.services.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/services/com.xiaomi.demo.services.services.main.iml" filepath="$PROJECT_DIR$/.idea/modules/services/com.xiaomi.demo.services.services.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/services/com.xiaomi.demo.services.services.test.iml" filepath="$PROJECT_DIR$/.idea/modules/services/com.xiaomi.demo.services.services.test.iml" />
+    </modules>
+  </component>
+</project>

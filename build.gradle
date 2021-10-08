@@ -1,0 +1,88 @@
+buildscript {
+    repositories {
+        jcenter()
+    }
+
+    dependencies {
+        classpath "com.github.jengelman.gradle.plugins:shadow:2.0.0"
+    }
+}
+
+wrapper{
+    gradleVersion = '3.5'
+}
+
+allprojects {
+    repositories {
+        maven { url "http://nexus.d.xiaomi.net/nexus/content/groups/public" }
+        mavenCentral()
+    }
+
+    defaultTasks 'clean', 'shadowJar'
+
+    apply plugin: 'idea'
+    apply plugin: 'java'
+
+    sourceCompatibility = 1.8
+    targetCompatibility = 1.8
+
+    group 'com.jiaojinda'
+    version '1.0'
+
+    dependencies {
+        testCompile 'junit:junit:4.12'
+
+        compile 'org.apache.commons:commons-lang3:3.6'
+        compile 'commons-io:commons-io:2.5'
+        compile 'com.google.code.gson:gson:2.8.0'
+        compile 'joda-time:joda-time:2.9.9'
+    }
+}
+
+project(':services') {
+    allprojects {
+        group 'com.jiaojinda.services'
+
+        dependencies {
+            compile 'com.networknt:config:1.3.0'
+            compile 'com.networknt:utility:1.3.0'
+            compile 'com.networknt:status:1.3.0'
+            compile 'com.networknt:server:1.3.0'
+            compile 'com.networknt:client:1.3.0'
+            compile 'com.networknt:body:1.3.0'
+            compile 'com.networknt:handler:1.3.0'
+            compile 'com.networknt:limit:1.3.0'
+            compile 'io.undertow:undertow-core:1.4.15.Final'
+            compile 'ch.qos.logback:logback-classic:1.2.2'
+            compile 'redis.clients:jedis:2.9.0'
+            compile 'com.typesafe:config:1.3.1'
+            compile 'org.apache.httpcomponents:httpclient:4.5.2'
+            compile 'org.apache.httpcomponents:httpmime:4.5.2'
+        }
+    }
+
+    subprojects {
+        if (project != project(':services:common')) {
+            apply plugin: 'application'
+            apply plugin: 'com.github.johnrengelman.shadow'
+
+            shadowJar {
+                zip64 true
+                exclude 'config/client.json'
+                exclude 'config/server.json'
+            }
+
+            mainClassName = 'com.networknt.server.Server'
+
+            dependencies {
+                compile project(':services:common')
+            }
+        }
+    }
+
+    project(':services:commentservice') {
+        dependencies {
+            compile group: 'com.google.zxing', name: 'core', version: '3.3.0'
+        }
+    }
+}

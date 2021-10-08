@@ -1,0 +1,22 @@
+{
+  "sync": {
+    "maxConnectionTotal": 3000,
+    "maxConnectionPerRoute": 1500,
+    "routes": {},
+    "timeout": 10000,
+    "keepAlive": 60000
+  },
+  "async": {
+    "maxConnectionTotal": 3000,
+    "maxConnectionPerRoute": 1500,
+    "routes": {},
+    "reactor": {
+      "ioThreadCount": null,
+      "connectTimeout": 3000,
+      "soTimeout": 10000
+    },
+    "timeout": 3000,
+    "keepAlive": 60000
+  },
+  "tls": {}
+}

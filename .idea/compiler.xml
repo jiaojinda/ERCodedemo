@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="com.jiaojinda.common.main" target="1.8" />
+      <module name="com.jiaojinda.common.test" target="1.8" />
+      <module name="com.jiaojinda.demo.main" target="1.8" />
+      <module name="com.jiaojinda.demo.test" target="1.8" />
+      <module name="com.jiaojinda.ERCodedemo.main" target="1.8" />
+      <module name="com.jiaojinda.ERCodedemo.test" target="1.8" />
+      <module name="com.jiaojinda.services.commentservice.main" target="1.8" />
+      <module name="com.jiaojinda.services.commentservice.test" target="1.8" />
+      <module name="com.jiaojinda.services.common.main" target="1.8" />
+      <module name="com.jiaojinda.services.common.test" target="1.8" />
+      <module name="com.jiaojinda.services.services.main" target="1.8" />
+      <module name="com.jiaojinda.services.services.test" target="1.8" />
+      <module name="com.xiaomi.demo.common.main" target="1.8" />
+      <module name="com.xiaomi.demo.common.test" target="1.8" />
+      <module name="com.xiaomi.demo.ics.oms.main" target="1.8" />
+      <module name="com.xiaomi.demo.ics.oms.test" target="1.8" />
+      <module name="com.xiaomi.demo.services.commentservice.main" target="1.8" />
+      <module name="com.xiaomi.demo.services.commentservice.test" target="1.8" />
+      <module name="com.xiaomi.demo.services.common.main" target="1.8" />
+      <module name="com.xiaomi.demo.services.common.test" target="1.8" />
+      <module name="com.xiaomi.demo.services.services.main" target="1.8" />
+      <module name="com.xiaomi.demo.services.services.test" target="1.8" />
+      <module name="com.xiaomi.ics.oms.demo.main" target="1.8" />
+      <module name="com.xiaomi.ics.oms.demo.test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
